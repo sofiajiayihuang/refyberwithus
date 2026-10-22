@@ -824,9 +824,8 @@ h3 {
 
 .ring-fill {
   stroke: var(--accent);
-  /* r=86 → circumference ≈ 540.4; goal exceeded, so the ring is full */
-  stroke-dasharray: 540.4;
-  stroke-dashoffset: 0;
+  /* The collection has exceeded its goal, so render a solid full circle. */
+  stroke-dasharray: none;
 }
 
 .tracker-figure {
