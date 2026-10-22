@@ -824,9 +824,9 @@ h3 {
 
 .ring-fill {
   stroke: var(--accent);
-  /* r=86 → circumference ≈ 540.4; 36% of goal filled */
+  /* r=86 → circumference ≈ 540.4; goal exceeded, so the ring is full */
   stroke-dasharray: 540.4;
-  stroke-dashoffset: 345.9;
+  stroke-dashoffset: 0;
 }
 
 .tracker-figure {
