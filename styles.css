@@ -824,7 +824,7 @@ h3 {
 
 .ring-fill {
   stroke: var(--accent);
-  /* The collection has exceeded its goal, so render a solid full circle. */
+  /* Render the collection indicator as a solid full circle. */
   stroke-dasharray: none;
 }
 
@@ -846,12 +846,6 @@ h3 {
 .tracker-figure .unit {
   font-size: 0.42em;
   letter-spacing: 0;
-}
-
-.tracker-goal {
-  color: var(--accent-ink);
-  font-size: 1rem;
-  font-weight: 600;
 }
 
 /* Animated per-project bar chart, filling the empty right side of the tracker */
